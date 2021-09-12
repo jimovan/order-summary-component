@@ -22,7 +22,7 @@ Users should be able to:
 ### Screenshot
 
 <p float="left">
-  <img src="./screenshots/desktop.png" width="600"/> 
+  <img src="./screenshots/desktop.PNG" width="600"/> 
 </p>
 
 ### Links
