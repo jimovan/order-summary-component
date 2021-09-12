@@ -2,9 +2,15 @@
 
 .container {
   border-radius: 1.5rem;
+  min-width: 23.4375rem;
   max-width: 23.4375rem;
+
   margin: 5rem auto;
   overflow: hidden;
+
+  @media only screen and (min-width: 56.25rem) {
+    max-width: 25rem;
+  }
 }
 
 .card {
@@ -19,16 +25,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     text-align: center;
 
     > * {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
   }
 
   &__title {
     font-weight: 900;
+    margin-top: 2rem;
   }
 
   &__summary {
@@ -64,12 +71,38 @@
     .edit-price {
       font-weight: 700;
       margin-left: 5rem;
+
+      &:hover {
+        text-decoration: none;
+        color: $hoverBlue;
+      }
     }
   }
 
   &__button {
     &--pay {
-      box-shadow: 0px 10px 5px #ced7ff;
+      background-color: $brightBlue;
+      color: white;
+      font-family: "Red Hat Display", sans-serif;
+      font-size: 1rem;
+      border: none;
+      box-shadow: 0px 15px 10px #ced7ff;
+
+      &:hover {
+        background-color: $hoverBlue;
+      }
+    }
+  }
+
+  &__link {
+    &--cancel {
+      text-decoration: none;
+      color: $greyBlue;
+      font-weight: 700;
+
+      &:hover {
+        color: $darkBlue;
+      }
     }
   }
 }
