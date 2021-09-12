@@ -17,8 +17,14 @@ html {
 }
 
 body {
-  font-family: "Red Hat Display", sans-serif;
   background-color: $backgroundBlue;
+  font-family: "Red Hat Display", sans-serif;
+  color: $darkBlue;
+
+  @media only screen and (min-width: 56.25rem) {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+  }
 }
 
 button {
