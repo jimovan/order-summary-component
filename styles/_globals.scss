@@ -20,3 +20,11 @@ body {
   font-family: "Red Hat Display", sans-serif;
   background-color: $backgroundBlue;
 }
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
