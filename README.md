@@ -21,7 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<p float="left">
+  <img src="./screenshots/desktop.png" width="600"/> 
+</p>
 
 ### Links
 
